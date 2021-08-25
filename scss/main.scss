@@ -1,0 +1,317 @@
+    @import "_commons";
+    @import "_fonts";
+    @import "_navBar";
+    @import "_content";
+    @import "_footer";
+    body {
+        background-color: $bg-lightblue;
+    }
+    
+    @media (min-width:425px) {
+        .container {
+            display: block;
+        }
+        .dataContainer {
+            margin-left: 120px;
+            padding-bottom: 20px;
+        }
+    }
+    
+    .cards {
+        display: block;
+        margin-left: 70px;
+        margin-bottom: 40px;
+    }
+    
+    .card {
+        margin-bottom: 70px;
+    }
+    
+    .titleContainer {
+        color: black;
+    }
+    
+    .imgFooter {
+        width: 40px;
+        height: 40px;
+        display: block;
+        margin-left: 30px;
+    }
+    
+    .redesSociales {
+        padding: 30px;
+    }
+    
+    .imgAsistencia {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .footerContainer {
+        display: flex;
+    }
+    
+    .asistencia {
+        padding: 30px;
+    }
+    
+    .asistenciaContainer {
+        display: flex;
+    }
+    
+    .number {
+        margin-bottom: 40px;
+    }
+    
+    .containerInfo {
+        margin-left: 60px;
+    }
+    
+    h1 {
+        text-align: center;
+        text-decoration: underline solid $underline;
+        font-family: $fontMain;
+        font-size: 30px;
+        font-weight: 600;
+        padding: 10px;
+    }
+    
+    .imgInicio {
+        height: 250px;
+        width: 300px;
+        margin-left: 70px;
+        padding: 10px;
+    }
+    
+    .tituloInicio {
+        text-decoration: underline solid $underline;
+        text-align: center;
+        padding-bottom: 10px;
+        font-size: 25px;
+    }
+    
+    form {
+        font-size: 3rem;
+    }
+    
+    .formContainer {
+        width: 300px;
+        background-color: rgb(19, 97, 133);
+        padding: 30px;
+        margin: auto;
+        margin-top: 100px;
+        margin-bottom: 50px;
+        border-radius: 4px;
+        font-family: calibri;
+        box-shadow: 7px 13px 37px #000;
+    }
+    
+    .formContainer h4 {
+        font-size: 22px;
+        margin-bottom: 20px;
+        color: white;
+    }
+    
+    .controls {
+        width: 95%;
+        background: rgb(19, 97, 133);
+        padding: 10px;
+        border-radius: 4px;
+        margin-bottom: 20px;
+        border: 2px solid rgb(1, 15, 22);
+        font-family: calibri;
+        font-size: 18px;
+        color: white;
+    }
+    
+    .boton {
+        width: 100px;
+        background-color: rgb(7, 27, 145);
+        border: none;
+        padding: 12px;
+        color: white;
+        margin: 16px 0;
+        font-size: 16px;
+        border-radius: 15px;
+    }
+    
+    .textArea {
+        display: inline-flex;
+        flex-direction: column;
+    }
+    
+    .botonContainer {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .mensaje {
+        width: 200px;
+        height: 200px;
+        margin-left: 7rem;
+        margin-top: 40px;
+        resize: none;
+    }
+    
+    .curso {
+        font-size: 30px;
+    }
+    
+    .nivel {
+        font-size: 30px;
+    }
+    
+    .send {
+        width: 100px;
+        background-color: rgb(7, 27, 145);
+        border: none;
+        padding: 12px;
+        color: white;
+        margin: 16px 0;
+        font-size: 16px;
+        border-radius: 15px;
+        margin-left: 10rem;
+    }
+    
+    p {
+        font-family: $fontParrafos;
+        text-align: center;
+        font-size: 25px;
+        font-weight: 600px;
+        text-decoration: underline solid green;
+    }
+    
+    @media (min-width:768px) {
+        .imgInicio {
+            margin-left: 240px;
+        }
+        h1 {
+            font-size: 50px;
+        }
+        .dataContainer {
+            margin-left: 0;
+        }
+        .containerInfo {
+            margin-left: 3px;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            text-align: center;
+        }
+        .imgFooter {
+            width: 80px;
+            height: 80px;
+            display: block;
+            margin-left: 30px;
+        }
+        .boton {
+            width: 100px;
+            background-color: rgb(7, 27, 145);
+            border: none;
+            padding: 12px;
+            color: white;
+            margin: 16px 0;
+            font-size: 16px;
+            border-radius: 15px;
+        }
+        .textArea {
+            display: inline-flex;
+            flex-direction: column;
+        }
+        .botonContainer {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+        .mensaje {
+            width: 200px;
+            height: 200px;
+            margin-left: 280px;
+            margin-top: 40px;
+            resize: none;
+        }
+        .send {
+            width: 100px;
+            background-color: rgb(7, 27, 145);
+            border: none;
+            padding: 12px;
+            color: white;
+            margin: 16px 0;
+            font-size: 16px;
+            border-radius: 15px;
+            margin-left: 330px;
+        }
+        .redesSociales {
+            padding: 30px;
+        }
+        .imgAsistencia {
+            width: 100px;
+            height: 100px;
+        }
+        .cards {
+            margin-left: 250px;
+        }
+        .footerContainer {
+            display: flex;
+        }
+        .asistencia {
+            padding: 30px;
+        }
+        .asistenciaContainer {
+            display: inline-flex;
+        }
+        .number {
+            margin-top: 30px;
+            margin-left: 10px;
+            font-size: 20px;
+        }
+    }
+    
+    @media (min-width:1024px) {
+        .homeInfo {
+            display: flex;
+            align-items: center;
+        }
+        .imgInicio {
+            width: 1000px;
+            margin-left: -5px;
+            margin-top: 40px;
+        }
+        .dataContainer {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .formContainer {
+            width: 500px;
+            background-color: rgb(19, 97, 133);
+            padding: 30px;
+            margin: auto;
+            margin-top: 100px;
+            margin-bottom: 50px;
+            border-radius: 4px;
+            font-family: calibri;
+            box-shadow: 7px 13px 37px #000;
+        }
+        .containerCenter {
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            margin: 0 auto;
+        }
+        .cards {
+            display: flex;
+            justify-content: space-between;
+            margin-left: 10px;
+        }
+        .parrafo {
+            margin-top: 50px;
+            margin-left: 40px;
+            margin-right: 40px;
+        }
+    }
