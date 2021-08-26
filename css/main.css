@@ -2,6 +2,18 @@
 body {
   background-color: #b3e5fc; }
 
+.mensaje,
+.textArea,
+.send {
+  margin: 0 auto; }
+
+.send {
+  margin-top: 20px; }
+
+.formContainer {
+  display: flex;
+  justify-content: center; }
+
 @media (min-width: 425px) {
   .container {
     display: block; }
@@ -120,7 +132,7 @@ form {
 .mensaje {
   width: 200px;
   height: 200px;
-  margin-left: 7rem;
+  margin: 0 auto;
   margin-top: 40px;
   resize: none; }
 
@@ -136,10 +148,8 @@ form {
   border: none;
   padding: 12px;
   color: white;
-  margin: 16px 0;
   font-size: 16px;
-  border-radius: 15px;
-  margin-left: 10rem; }
+  border-radius: 15px; }
 
 p {
   font-family: "Noticia Text", serif;
@@ -172,7 +182,7 @@ p {
     border: none;
     padding: 12px;
     color: white;
-    margin: 16px 0;
+    margin: 0 auto;
     font-size: 16px;
     border-radius: 15px; }
   .textArea {
@@ -185,7 +195,6 @@ p {
   .mensaje {
     width: 200px;
     height: 200px;
-    margin-left: 280px;
     margin-top: 40px;
     resize: none; }
   .send {
@@ -194,10 +203,8 @@ p {
     border: none;
     padding: 12px;
     color: white;
-    margin: 16px 0;
     font-size: 16px;
-    border-radius: 15px;
-    margin-left: 330px; }
+    border-radius: 15px; }
   .redesSociales {
     padding: 30px; }
   .imgAsistencia {
