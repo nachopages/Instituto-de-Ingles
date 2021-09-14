@@ -98,6 +98,13 @@
         padding: 10px;
     }
     
+    .imgPago {
+        height: 250px;
+        width: 300px;
+        margin-left: 100px;
+        padding: 10px;
+    }
+    
     .tituloInicio {
         text-decoration: underline solid $underline;
         text-align: center;
@@ -316,8 +323,8 @@
         }
         .cards {
             display: flex;
-            justify-content: space-between;
-            margin-left: 10px;
+            justify-content: space-around;
+            margin-left: 6px;
         }
         .parrafo {
             margin-top: 50px;

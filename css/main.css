@@ -74,6 +74,12 @@ h1 {
   margin-left: 70px;
   padding: 10px; }
 
+.imgPago {
+  height: 250px;
+  width: 300px;
+  margin-left: 100px;
+  padding: 10px; }
+
 .tituloInicio {
   text-decoration: underline solid #d50000;
   text-align: center;
@@ -254,8 +260,8 @@ p {
     margin: 0 auto; }
   .cards {
     display: flex;
-    justify-content: space-between;
-    margin-left: 10px; }
+    justify-content: space-around;
+    margin-left: 6px; }
   .parrafo {
     margin-top: 50px;
     margin-left: 40px;
